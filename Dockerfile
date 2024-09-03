@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r /Cost_Calc_Dash/requirements.txt
 
 COPY . /Cost_Calc_Dash
 
-EXPOSE 8050
+EXPOSE 10000
 
 CMD ["python", "index.py"]
