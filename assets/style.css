@@ -1,0 +1,257 @@
+body {
+    max-width: 2000px;
+    margin: auto;
+    background-color: #ffffff;
+    color: #20203C;
+    font-family: 'Free Mono', 'monospace';
+    line-height: 1.6;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#headerDiv{
+    text-align: center;
+
+}
+#headerDiv h1{
+    margin:0;
+    padding: .2%;
+    color: #20203C;
+    font-family: 'Free Mono', 'monospace';
+
+
+}
+#headerDiv p{
+    margin:0;
+    padding: .1%;
+}
+
+#inputsDiv{
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-color:#38194C ;
+    box-shadow: 0px 0px 10px #38194C ;
+
+}
+input, select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#inputsDiv h2{
+    margin: 0;
+}
+
+#inputsDiv label{
+    padding: .5%;
+}
+
+
+#tables{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+    margin-bottom: 5%;
+}
+
+#dash-app-content{
+    text-align: center;
+}
+
+#page-content{
+    text-align: center;
+    height: 95vh;
+
+}
+#calculator{
+    display:flex;
+    height: 95%;
+}
+#Outputs{
+    width: 49%;
+}
+#inputParentDiv{
+    width:49%;
+    margin:0;
+    height: 92%;
+    margin-top: 1%; 
+}
+
+
+#cluster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+}
+
+#cluster div {
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    margin-bottom: 10px;  
+}
+
+
+#cluster div label {
+    white-space: nowrap; 
+    margin-left: 5px;
+}
+
+#cost_table_0{
+    padding-bottom: 2%;
+}
+
+#price_tables{
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+    overflow-x: auto;
+
+}
+#total_cost{
+    width:100%;
+}
+#total_cost_table{
+    width: 100%;
+}
+
+.tooltip{
+    background-color: lightgray;
+    border-radius: 5%;
+    font-size: small;
+    margin-right: 6.5%;
+    padding: .5%;
+}
+.tooltip p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#spotTooltip{
+    margin-right: 1%;
+}
+#photonTooltip{
+    margin-right: 1%;
+}
+#nodesTooltip{
+    margin-right: .5%;
+}
+#inputParentDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.cell-table tbody tr td{
+    text-align: center !important;
+}
+.cell-table tbody tr th{
+    text-align: center !important;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+.cell-table tbody tr th, .dash-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.dash-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+
+
+h1, h3 {
+    text-align: center;
+}
+
+label {
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+input {
+    padding: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: #0056b3;
+}
+
+#nodes input{
+    width: 10%;
+}
+#runtime input{
+    width: 12%;
+}
+
+
+
+input[type='checkbox'] {
+    accent-color: #8451EC;
+}
+
+#table-message{
+    margin-top: 0;
+}
+#tabs div{
+    padding: 0%;
+    margin: 0%;
+    border-color: #8451EC;
+
+}
+#tabs-parent{
+    height: 1%;
+    color: #8451EC;
+    
+}
+
+#sfInputParentDiv{
+    display: block;
+    justify-content: center;
+    margin-bottom: 1%;
+    width:49%;
+    margin:0;
+    height: 92%;
+    margin-top: 1%; 
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-color:#38194C ;
+    box-shadow: 0px 0px 10px #38194C ;
+    text-align: center;
+    margin-right: 25.5%;
+    margin-left: 25.5%
+}
+
+#dataSizeInput{
+    width: 8%;
+}
+
+#warehouseDropdown{
+    width: 30%;
+    justify-content: center;
+}
+
+#warehouse{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#warehouse label{
+    margin-top: .5%;
+}
+#sfInputParentDiv div label{
+    margin-right: 1%;
+}
+#sfInputParentDiv h2{
+    margin-bottom: 0;
+}
